@@ -64,6 +64,7 @@ main {
     background-color: white;
 }
 
+
 #demo .col {
     width: 100%;
     min-height: 50px;
@@ -297,9 +298,13 @@ p {
      
     #testimonials .card {
         display: flex;
+        align-items: center;
         text-align: left;
     }
 
+    #testimonials h3 {
+        text-align: center;
+    }
    /* SECTION-4 */
 
    #benefits .row {
