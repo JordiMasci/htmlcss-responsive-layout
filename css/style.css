@@ -222,7 +222,26 @@ p {
     color: #9593e6;
 }
 
+
+/* FOOTER */
+
+#foot {
+    width: 100%;
+    min-height: 500px;
+    background-color: black;
+}
+
+
+#foot .container {
+    padding: 3rem 10rem;
+    
+    color: white;
+    text-align: center;
+}
+
+
 /* RESPONSIVE */
+
 
 
 /* TEBLET */
