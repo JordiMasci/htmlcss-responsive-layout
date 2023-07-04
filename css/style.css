@@ -69,6 +69,7 @@ main {
     min-height: 50px;
     padding: 1rem;
     border-radius: 15px;
+    display: flex;
 }
 
 #demo .col:first-child {
