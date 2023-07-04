@@ -113,6 +113,55 @@ header .row {
 }
 
 
+/* SECTION-4 */
+
+#benefits .container {
+    background-color: #9593e6;
+}
+
+
+#benefits .center {
+    text-align: center;
+    font-size: 35px;
+}
+
+#benefits .col {
+    width: 100%;
+    border: 2px dashed red;
+}
+
+#benefits .card {
+    background-color: white;
+    color: #9593e6;
+    padding: 1.5rem;
+    margin-bottom: 20px;
+    border-radius: 25px;
+
+}
+
+#benefits 
+h1,
+h2 {
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+#benefits p {
+    font-size: 20px;
+    line-height: 45px;
+    margin: 15px 0;
+}
+
+#benefits button {
+   font-size: 20px;
+   padding: 0.5rem 2rem; 
+   background-color: #9593e6;
+   color: white;
+   border-radius: 30px;
+}
+
+
+
 /* RESPONSIVE */
 
 
@@ -144,7 +193,21 @@ header .row {
         text-align: left;
     }
 
-   
+   /* SECTION-4 */
+
+   #benefits .row {
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   #benefits .col {
+    width: 50%
+   }
+
+   #benefits .card {
+    margin: 1rem;
+   }
+
 
 }
 
@@ -173,6 +236,13 @@ header .row {
         width: 70%;
         padding: 1rem;
     }
+
+    /* SECTION-4 */
+
+    #benefits .col {
+        width: calc(100% / 3);
+    }
+    
 }
 
 
