@@ -305,6 +305,12 @@ p {
     #testimonials h3 {
         text-align: center;
     }
+
+    #testimonials img {
+        padding: 0.5rem;
+    }
+
+    
    /* SECTION-4 */
 
    #benefits .row {
