@@ -55,13 +55,12 @@ header .row {
 
 #demo .col {
     width: 100%;
-    border: 2px dashed red;
     min-height: 50px;
+    border: 2px dashed red;
 }
 
 #demo .col:first-child {
     width: 100%;
-    border: 2px dashed red;
     min-height: 100px;
 }
 
@@ -88,7 +87,6 @@ header .row {
 
 #testimonials .col {
     width: 100%;
-    border: 2px dashed red;
     min-height: 100px;
 }
 
@@ -96,7 +94,6 @@ header .row {
     background-color: #9593e6;
     text-align: center;
     border-radius: 30px;
-    /* min-height: 500px; */
     margin-bottom: 30px;
     color: white;
 }
@@ -127,7 +124,6 @@ header .row {
 
 #benefits .col {
     width: 100%;
-    border: 2px dashed red;
 }
 
 #benefits .card {
@@ -202,6 +198,30 @@ p {
     color: white;
 }
 
+
+/* SECTION-6 */
+
+#free {
+    background-color: #9593e6;
+  }
+
+  #free .col {
+    text-align: center;
+    color: white;
+  }
+
+  #free h1 {
+    font-size: 80px;
+    color: #fdc15f;
+  }
+
+#free button {
+    font-size: 15px;
+    padding: 1.5rem 3.5rem;
+    border-radius: 30px;
+    color: #9593e6;
+}
+
 /* RESPONSIVE */
 
 
@@ -261,10 +281,20 @@ p {
    #about h2 {
     font-size: 30px;
    }
+
+   /* SECTION-6 */
+
+   #free h1 {
+    font-size: 100px;
+   }
+
+   #free h2 {
+    font-size: 80px;
+   }
 }
 
 
-
+  
 /* MONITOR */
 
 @media screen and (min-width: 992px) {
