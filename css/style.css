@@ -34,10 +34,10 @@ img {
 header {
     height: 80px;
     background-color: #0084fd;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    right: 0; */
+    right: 0;
 }
 
 
@@ -45,6 +45,17 @@ header .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    display: none;
+}
+
+/* MAIN */
+
+main {
+    padding-top: 80px;
 }
 
 /* SECTION-1 */
@@ -57,6 +68,9 @@ header .row {
     width: 100%;
     min-height: 50px;
     border: 2px dashed red;
+    padding: 1rem;
+    background-color: #0084fd;
+    border-radius: 15px;
 }
 
 #demo .col:first-child {
@@ -64,7 +78,14 @@ header .row {
     min-height: 100px;
 }
 
+#demo button {
+    padding: 1rem;
+    border-radius: 15px;
+}
 
+#demo .text-center {
+    text-align: center;
+}
 /* SECTION-2 */
 
 #planning {
@@ -317,7 +338,23 @@ p {
 /* MONITOR */
 
 @media screen and (min-width: 992px) {
-    
+    /* HEADER */
+
+    header .fa-bars {
+        display: none;
+    }
+
+    header ul {
+        display: flex;
+    }
+
+    header li {
+        margin-right: 20px;
+    }
+
+
+    /* SECTION-2 */
+
     #planning .container {
         padding: 3rem;
     }
