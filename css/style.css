@@ -161,6 +161,46 @@ h2 {
 }
 
 
+/* SECTION-5 */
+
+#about .container {
+    background-color: white;
+    color: #9593e6;
+}
+
+#about h1 {
+    font-size: 35px;
+}
+
+#about p {
+    color: black;
+}
+
+#about
+h1,
+p {
+    line-height: 35px;
+    margin: 15px 0;
+    padding: 1rem;
+}
+
+#about img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#about .card {
+    padding: 1rem;
+}
+
+#about button {
+    padding: 0 1rem;
+    border-radius: 10px;
+    background-color: #9593e6;
+    color: white;
+}
 
 /* RESPONSIVE */
 
@@ -208,7 +248,19 @@ h2 {
     margin: 1rem;
    }
 
+   /* SECTION-5 */
 
+   #about .row {
+    display: flex;
+   }
+
+   #about .card {
+    height: 50%;
+   }
+
+   #about h2 {
+    font-size: 30px;
+   }
 }
 
 
