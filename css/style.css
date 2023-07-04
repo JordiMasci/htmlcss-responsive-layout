@@ -6,10 +6,12 @@
     padding: 0;
 }
 
+img {
+    width: 100%;
+}
 
+/* DEBUG */
 
-
-/* CONTAINER */
 
 .container {
     max-width: 1170px;
@@ -18,7 +20,13 @@
     margin-right: auto;
 }
 
+.row {
+    padding: -1rem;
+}
 
+.col {
+    padding: -1rem;
+}
 
 /* HEADER */
 
@@ -38,4 +46,95 @@ header .row {
     justify-content: space-between;
     align-items: center;
 }
+
+/* SECTION-1 */
+
+#demo {
+    background-color: white;
+}
+
+#demo .col {
+    width: 100%;
+    border: 2px dashed red;
+    min-height: 50px;
+}
+
+#demo .col:first-child {
+    width: 100%;
+    border: 2px dashed red;
+    min-height: 100px;
+}
+
+
+/* SECTION-2 */
+
+#planning {
+    background-color: #9593e6;
+}
+
+#planning .card {
+    background-color: white;
+    border: 1px solid black;
+    min-height: 300px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+/* TEBLET */
+
+@media screen and (min-width: 576px) {
+
+    
+
+    #demo .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #demo .col:first-child {
+        width: calc(100% / 3 * 2);
+        min-height: 100px;
+    }
+
+    #demo .col {
+        width: calc(100% / 3);
+        min-height: 100px;
+    }
+}
+
+
+/* MONITOR */
+
+@media screen and (min-width: 992px) {
+    
+    #planning .container {
+        
+    }
+    
+    
+    #planning .row {
+        display: flex;
+        align-items: flex-end;
+
+    }
+
+    #planning .col {
+        padding: 1rem;        
+    }
+
+    #planning .card {
+        width: 70%;
+        padding: 1rem;
+    }
+}
+
 
