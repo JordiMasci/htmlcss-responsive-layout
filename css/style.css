@@ -1,0 +1,41 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* CONTAINER */
+
+.container {
+    max-width: 1170px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* HEADER */
+
+
+header {
+    height: 80px;
+    background-color: #0084fd;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+
+
+header .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
