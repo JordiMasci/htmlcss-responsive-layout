@@ -67,9 +67,7 @@ main {
 #demo .col {
     width: 100%;
     min-height: 50px;
-    border: 2px dashed red;
     padding: 1rem;
-    background-color: #0084fd;
     border-radius: 15px;
 }
 
@@ -86,6 +84,14 @@ main {
 #demo .text-center {
     text-align: center;
 }
+
+#demo .card {
+    padding: 1.5rem;
+    background-color: #0084fd;
+    border-radius: 25px;
+}
+
+
 /* SECTION-2 */
 
 #planning {
